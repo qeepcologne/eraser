@@ -13,8 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "eraser",
-            dependencies: [],
-            publicHeadersPath: "."
+            dependencies: []
         )
     ]
 )

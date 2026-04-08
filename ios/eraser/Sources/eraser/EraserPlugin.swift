@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 
-public class SwiftEraserPlugin: NSObject, FlutterPlugin {
+public class EraserPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "eraser", binaryMessenger: registrar.messenger())
     let instance = SwiftEraserPlugin()
